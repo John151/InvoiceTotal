@@ -1,6 +1,6 @@
 ﻿namespace InvoiceTotal
 {
-    partial class Form1
+    partial class InvoiceTotal
     {
         /// <summary>
         /// Required designer variable.
@@ -89,6 +89,7 @@
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnExit
             // 
@@ -131,7 +132,7 @@
             this.txtTotal.Size = new System.Drawing.Size(100, 20);
             this.txtTotal.TabIndex = 9;
             // 
-            // Form1
+            // InvoiceTotal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,7 +147,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "InvoiceTotal";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
